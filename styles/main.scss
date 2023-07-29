@@ -1,14 +1,42 @@
 @import 'custom';
 
 .navigation_bandeau{
-    background-color: #1E1E1E;
+    background-color: $warning;
     height: 150px;
 }
 .logo{
     width: 180px;
 }
+
 .navigation_link{
     display: flex;
     justify-content: space-evenly;
     padding: 0% 3%;
+}
+
+.footer_bandeau{
+    background-color: $warning;
+}
+
+// Couleur du fond du site Web + police d'écriture principal
+body{
+    background-color: $secondary;
+    font-family: 'Aref Ruqaa Ink', serif;
+}
+
+//Style titre H1> majuscule + gradient
+h1{
+    text-transform: uppercase;
+background: linear-gradient(to bottom right, #2F2569 0%, #9C122B 50%) bottom right / 50% 50% no-repeat, linear-gradient(to bottom left, #2F2569 0%, #9C122B 50%) bottom left / 50% 50% no-repeat, linear-gradient(to top left, #2F2569 0%, #9C122B 50%) top left / 50% 50% no-repeat, linear-gradient(to top right, #2F2569 0%, #9C122B 50%) top right / 50% 50% no-repeat;
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+@media screen and (max-width : 768px) {
+.hidden{
+    visibility: collapse;
+    }
+    .logo_footer{
+        width: 100px;
+    }
 }
