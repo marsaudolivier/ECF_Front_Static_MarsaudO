@@ -11970,4 +11970,23 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+body {
+  background-color: #686869;
+  font-family: "Aref Ruqaa Ink", serif;
+}
+
+.navigation_bandeau {
+  background-color: #1E1E1E;
+  height: 150px;
+}
+
+.logo {
+  width: 180px;
+}
+
+.navigation_link {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0% 3%;
 }/*# sourceMappingURL=main.css.map */

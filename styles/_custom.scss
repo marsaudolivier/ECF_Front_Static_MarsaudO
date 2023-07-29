@@ -5,8 +5,10 @@ $secondary: #686869;
 $warning: #1E1E1E;
 $info: #5CB8FF;
  // Ajout des couleurs Global pour la charte graphique
-
-
-
-
 @import "../vendor/twbs/bootstrap/scss/bootstrap";
+
+// Couleur du fond du site Web + police d'écriture principal
+body{
+    background-color: #686869;
+    font-family: 'Aref Ruqaa Ink', serif;
+}
