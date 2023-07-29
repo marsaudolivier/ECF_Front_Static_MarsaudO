@@ -7,7 +7,7 @@ $info: #5CB8FF;
  // Ajout des couleurs Global pour la charte graphique
  
  $navbar-dark-color: #5CB8FF;
-
+ $breadcrumb-bg: #5CB8FF;
 
 @import "../vendor/twbs/bootstrap/scss/bootstrap";
 
@@ -15,6 +15,7 @@ $info: #5CB8FF;
 body{
     background-color: #686869;
     font-family: 'Aref Ruqaa Ink', serif;
+    $breadcrumb-divider-color:          var(--#{$prefix}danger-color);
 }
 
 //Style titre H1> majuscule + gradient
