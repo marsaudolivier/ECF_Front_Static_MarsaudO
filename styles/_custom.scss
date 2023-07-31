@@ -6,8 +6,13 @@ $warning: #1E1E1E;
 $info: #5CB8FF;
  // Ajout des couleurs Global pour la charte graphique
  
- $navbar-dark-color: #5CB8FF;
- $breadcrumb-bg: #5CB8FF;
+$navbar-dark-color: #5CB8FF;
+$breadcrumb-bg: #5CB8FF;
+
+ 
+$modal-content-color: $danger;
+$modal-content-bg: $info;
+$modal-md:auto;
 
 
 @import "../vendor/twbs/bootstrap/scss/bootstrap";

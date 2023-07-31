@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +11,7 @@
 <body>
   <!--Intégration de la navbar Responsive-->
   <header class="navigation_bandeau d-flex">
-      <img src="assets/Logo Parrot.svg" class="logo">
+      <img src="assets/Logo Parrot.svg" class="logo" alt="Logo de notre garage V parrot">
     <h1 class="d-flex align-items-center text-center p-2">Garage
       V. Parrot</h1>
     <nav class="navbar navbar-expand-lg navbar-info text-info" data-bs-theme="dark"> 
@@ -21,31 +21,224 @@
         </button>
         <div class="collapse navbar-collapse text-primary navigation_link" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="navigation_link text-primary" href="./Index.html">Acceuil</a>
-            <a class="navigation_link" href="">Ventes</a>
-            <a class="navigation_link" href="">Admin</a>
+            <a class="navigation_link  navbar-text" href="./Index.html">Acceuil</a>
+            <a class="navigation_link navbar-text" href="">Ventes</a>
+            <a class="navigation_link navbar-text" href="">Admin</a>
           </div>
         </div>
       </nav>   
 </header>
  <!--Intégration de la Fil ariane-->
 <a href="index.html" class="text-success p-2">Acceuil</a>
+<!--Ajout titre de la page-->
+<h2>Bienvenue au Garage 
+</br>  V. Parrot</h2>
+<!--Ajout photo + style-->
+<div class="p-4 d-flex">
+  <img src="assets/index1.jpg" alt="Notre mécanicien en pleine mécanique" class="index_image">
+</div>
 
+<!-- Ajout du premier paragraphe -->
+<div class="index_text p-1 m-3">
+  <p class="p-4">
+    Vous cherchez un garage de confiance pour entretenir, réparer ou vendre votre voiture ? Ne cherchez plus ! Garage V. Parrot est là pour répondre à tous vos besoins en matière d'automobile.
+  </br></br>
+Fondé par Vincent Parrot, un professionnel de l'automobile avec plus de 15 ans d'expérience, notre garage est spécialisé dans la réparation de la carrosserie et de la mécanique des voitures, ainsi que dans leur entretien régulier pour garantir leur performance et leur sécurité. Nous mettons également en vente des véhicules d'occasion pour répondre à tous les besoins et tous les budgets.
+</br></br>
+Chez Garage V. Parrot, nous sommes passionnés par les voitures et nous mettons tout en œuvre pour offrir à nos clients un service de qualité, personnalisé et de confiance. Nous sommes convaincus que chaque voiture mérite les meilleurs soins, et c'est pourquoi nous nous engageons à fournir un service de qualité à chaque client.
+</br></br>
+Notre équipe de professionnels est composée d'experts en mécanique et en carrosserie, qui sont formés pour travailler sur tous les types de voitures, des plus anciennes aux plus récentes. Nous sommes équipés des dernières technologies et des outils les plus performants pour garantir un travail de qualité et une réparation rapide et efficace.
+</br></br>
+Nous comprenons que la réparation d'une voiture peut être stressante et coûteuse. C'est pourquoi nous offrons à nos clients un service personnalisé et transparent, avec des devis clairs et des explications détaillées sur les travaux à effectuer. Nous sommes également à l'écoute de nos clients et nous nous engageons à répondre à toutes leurs questions et à leurs préoccupations.
+</br></br>
+Chez Garage V. Parrot, nous sommes fiers de notre réputation de garage de confiance. Nous considérons notre atelier comme un véritable lieu de confiance pour nos clients, et nous sommes déterminés à maintenir cette réputation en offrant un service de qualité supérieure à chaque client.
+</br></br>
+Nous savons que la concurrence est rude dans l'industrie automobile, et c'est pourquoi nous avons décidé de créer une application web vitrine pour notre garage. Nous voulons mettre en avant la qualité de nos services et notre engagement envers nos clients. Nous sommes convaincus que notre application web vitrine sera un outil essentiel pour nous aider à nous faire connaître et à attirer de nouveaux clients.
+</br></br>Alors, si vous cherchez un garage de confiance pour entretenir, réparer ou vendre votre voiture, ne cherchez plus ! Garage V. Parrot est là pour répondre à tous vos besoins en matière d'automobile. Contactez-nous dès maintenant pour prendre rendez-vous ou pour en savoir plus sur nos services. Nous sommes impatients de vous accueillir dans notre atelier et de prendre soin de votre voiture.
+  </p>
+</div>
+<!--Ajout photo + style-->
+<div class="p-4 d-flex">
+  <img src="assets/index2.jpg" alt="Notre mécanicien, en train de sérré une rotule" class="index_image">
+</div>
+<div class="index_text p-1 m-3">
+  <h2 class="p-4">Nos services</h2>
+</div>
+<!-- Button trigger modal -->
+<ul class="service p-4 m-3">
+ <div class="d-flex p-4">
+  <li>Réparation Automobile</li>  <button type="button" class="btn btn-secondary index_bouton" data-bs-toggle="modal" data-bs-target="#reparation">
+    Plus d'info
+  </button>
+</div>
+<div class="d-flex p-4">
+  <li>Entretien automobile</li>  <button type="button" class="btn btn-secondary index_bouton" data-bs-toggle="modal" data-bs-target="#Entretien">
+    Plus d'info
+  </button>
+</div> 
+<div class="d-flex p-4">
+  <li>Carrosserie</li>  <button type="button" class="btn btn-secondary index_bouton" data-bs-toggle="modal" data-bs-target="#Carrosserie">
+    Plus d'info
+  </button>
+</div> 
+<div class="d-flex p-4">
+  <li>Installation de boitier bio éthanol</li>  <button type="button " class="btn btn-secondary index_bouton" data-bs-toggle="modal" data-bs-target="#Installation">
+    Plus d'info
+  </button>
+</div> 
+</ul>
 
-</br></br></br></br></br>
-</br></br></br></br></br>
-</br></br></br></br></br>
-</br></br></br></br></br>
-</br></br></br></br></br>
-</br></br></br></br></br>
+<!-- Modal -->
+<div class="modal fade p-5" id="reparation" tabindex="-1" aria-labelledby="reparation" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="reparation">Réparation Automobile</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <P>Chez Garage V. Parrot, nous sommes fiers de notre expertise en matière de réparation automobile. Nous avons une équipe de professionnels expérimentés qui sont formés pour travailler sur tous les types de voitures, des plus anciennes aux plus récentes. Nous sommes équipés des dernières technologies et des outils les plus performants pour garantir un travail de qualité et une réparation rapide et efficace.
+        </br></br>Nous comprenons que la réparation d'une voiture peut être stressante et coûteuse. C'est pourquoi nous offrons à nos clients un service personnalisé et transparent, avec des devis clairs et des explications détaillées sur les travaux à effectuer. Nous sommes également à l'écoute de nos clients et nous nous engageons à répondre à toutes leurs questions et à leurs préoccupations.
+      </br></br> Notre équipe de professionnels est spécialisée dans la réparation de la mécanique et de la carrosserie des voitures. Nous sommes capables de diagnostiquer rapidement les problèmes et de proposer des solutions efficaces. Nous sommes également en mesure de réparer les dommages causés par les accidents, les intempéries ou l'usure normale.
+    </br></br> Chez Garage V. Parrot, nous sommes convaincus que chaque voiture mérite les meilleurs soins, et c'est pourquoi nous nous engageons à fournir un service de qualité à chaque client. Nous sommes fiers de notre réputation de garage de confiance et nous sommes déterminés à maintenir cette réputation en offrant un service de qualité supérieure à chaque client.</P>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Contactez-nous</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermeture</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+<!-- Modal -->
+<div class="modal fade p-5" id="Entretien" tabindex="-1" aria-labelledby="Entretien" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="Entretien">Entretien automobile</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <P>L'entretien régulier de votre voiture est essentiel pour garantir sa performance et sa sécurité. Chez Garage V. Parrot, nous offrons un service d'entretien automobile complet pour tous les types de voitures. Nous sommes équipés des dernières technologies et des outils les plus performants pour garantir un travail de qualité.
+        </br></br>
+          Notre équipe de professionnels est formée pour effectuer tous les types d'entretien automobile, des vidanges d'huile aux changements de filtres en passant par le remplacement des pneus, la vérification des freins et des suspensions, et bien plus encore. Nous sommes en mesure de diagnostiquer rapidement les problèmes et de proposer des solutions efficaces pour garantir la performance et la sécurité de votre voiture.
+        </br></br>
+          Nous comprenons que l'entretien d'une voiture peut être coûteux et fastidieux. C'est pourquoi nous offrons à nos clients un service personnalisé et transparent, avec des devis clairs et des explications détaillées sur les travaux à effectuer. Nous sommes également à l'écoute de nos clients et nous nous engageons à répondre à toutes leurs questions et à leurs préoccupations.
+        </br></br>
+          Chez Garage V. Parrot, nous sommes passionnés par les voitures et nous mettons tout en œuvre pour offrir à nos clients un service de qualité, personnalisé et de confiance. Nous sommes convaincus que chaque voiture mérite les meilleurs soins, et c'est pourquoi nous nous engageons à fournir un service de qualité à chaque client.
+          </P>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Contactez-nous</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermeture</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+<!-- Modal -->
+<div class="modal fade p-5" id="Carrosserie" tabindex="-1" aria-labelledby="Carrosserie" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="Carrosserie">Carrosserie</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <P>La carrosserie de votre voiture est l'un des éléments les plus visibles et les plus importants de votre véhicule. Chez Garage V. Parrot, nous sommes spécialisés dans la réparation de la carrosserie des voitures. Nous offrons un service de qualité supérieure pour tous les types de réparations de carrosserie, des petites réparations aux réparations majeures.
+        </br></br>
+          Notre équipe de professionnels est formée pour travailler sur tous les types de voitures, des plus anciennes aux plus récentes. Nous sommes équipés des dernières technologies et des outils les plus performants pour garantir un travail de qualité et une réparation rapide et efficace. Nous offrons également des services de peinture pour donner à votre voiture un aspect neuf et frais.
+        </br></br>
+          Nous comprenons que la réparation de la carrosserie de votre voiture peut être stressante et coûteuse. C'est pourquoi nous offrons à nos clients un service personnalisé et transparent, avec des devis clairs et des explications détaillées sur les travaux à effectuer. Nous sommes également à l'écoute de nos clients et nous nous engageons à répondre à toutes leurs questions et à leurs préoccupations.
+        </br></br>
+          Chez Garage V. Parrot, nous sommes fiers de notre réputation de garage de confiance. Nous considérons notre atelier comme un véritable lieu de confiance pour nos clients, et nous sommes déterminés à maintenir cette réputation en offrant un service de qualité supérieure à chaque client.
+          </P>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Contactez-nous</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermeture</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+<!-- Modal -->
+<div class="modal fade p-5" id="Installation" tabindex="-1" aria-labelledby="Installation" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="Installation">Installation de boitier bio éthanol</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <P>Le boitier bio éthanol est un équipement qui permet de rouler avec un carburant plus écologique. Chez Garage V. Parrot, nous sommes spécialisés dans l'installation de boitier bio éthanol pour tous les types de voitures. Nous sommes équipés des dernières technologies et des outils les plus performants pour garantir un travail de qualité.
+        </br></br>
+          Notre équipe de professionnels est formée pour installer tous les types de boitiers bio éthanol, des plus simples aux plus complexes. Nous offrons également des conseils personnalisés pour aider nos clients à choisir le boitier bio éthanol qui convient le mieux à leur voiture. Nous sommes à l'écoute de nos clients et nous nous engageons à répondre à toutes leurs questions et à leurs préoccupations.
+        </br></br>
+          Chez Garage V. Parrot, nous sommes convaincus que chaque voiture mérite les meilleurs soins, et c'est pourquoi nous nous engageons à fournir un service de qualité à chaque client. Nous sommes fiers de notre réputation de garage de confiance et nous sommes déterminés à maintenir cette réputation en offrant un service de qualité supérieure à chaque client.
+          </P>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Contactez-nous</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermeture</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+<div class="d-flex p-3">
+  <div class="index_avis p-2">
+    <H3>Avis Client</H3>
+    <p>Très bon garage je recommande</p>
+    <p>Marsaud olivier</p>
+    <svg xmlns="http://www.w3.org/2000/svg" width="250" height="50" viewBox="0 0 250 50" fill="none">
+      <path d="M73.989 0L79.1478 17.2746H95.8423L82.3362 27.9508L87.4951 45.2254L73.989 34.5491L60.4829 45.2254L65.6417 27.9508L52.1356 17.2746H68.8301L73.989 0Z" fill="#FF8778"/>
+      <path d="M125 0L130.159 17.2746H146.853L133.347 27.9508L138.506 45.2254L125 34.5491L111.494 45.2254L116.653 27.9508L103.147 17.2746H119.841L125 0Z" fill="#FF8778"/>
+      <path d="M176.011 0L181.17 17.2746H197.864L184.358 27.9508L189.517 45.2254L176.011 34.5491L162.505 45.2254L167.664 27.9508L154.158 17.2746H170.852L176.011 0Z" fill="#FF8778"/>
+      <path d="M227.022 0L232.181 17.2746H248.875L235.369 27.9508L240.528 45.2254L227.022 34.5491L213.516 45.2254L218.675 27.9508L205.169 17.2746H221.863L227.022 0Z" fill="#FF8778"/>
+      <path d="M22.9779 0L28.1368 17.2746H44.8313L31.3252 27.9508L36.484 45.2254L22.9779 34.5491L9.47185 45.2254L14.6307 27.9508L1.12462 17.2746H17.8191L22.9779 0Z" fill="#9C122B"/>
+      </svg>
+  </div>
+  <div class="index_avis index_avis_deux p-2">
+    <H3>Avis Client</H3>
+    <p>Très bon garage je recommande</p>
+    <p>Marsaud olivier</p>
+    <svg xmlns="http://www.w3.org/2000/svg" width="250" height="50" viewBox="0 0 250 50" fill="none">
+      <path d="M73.989 0L79.1478 17.2746H95.8423L82.3362 27.9508L87.4951 45.2254L73.989 34.5491L60.4829 45.2254L65.6417 27.9508L52.1356 17.2746H68.8301L73.989 0Z" fill="#FF8778"/>
+      <path d="M125 0L130.159 17.2746H146.853L133.347 27.9508L138.506 45.2254L125 34.5491L111.494 45.2254L116.653 27.9508L103.147 17.2746H119.841L125 0Z" fill="#FF8778"/>
+      <path d="M176.011 0L181.17 17.2746H197.864L184.358 27.9508L189.517 45.2254L176.011 34.5491L162.505 45.2254L167.664 27.9508L154.158 17.2746H170.852L176.011 0Z" fill="#FF8778"/>
+      <path d="M227.022 0L232.181 17.2746H248.875L235.369 27.9508L240.528 45.2254L227.022 34.5491L213.516 45.2254L218.675 27.9508L205.169 17.2746H221.863L227.022 0Z" fill="#FF8778"/>
+      <path d="M22.9779 0L28.1368 17.2746H44.8313L31.3252 27.9508L36.484 45.2254L22.9779 34.5491L9.47185 45.2254L14.6307 27.9508L1.12462 17.2746H17.8191L22.9779 0Z" fill="#9C122B"/>
+      </svg>
+  </div>
+  <div class="index_avis index_avis_trois p-2">
+    <H3>Avis Client</H3>
+    <p>Très bon garage je recommande</p>
+    <p>Marsaud olivier</p>
+    <svg xmlns="http://www.w3.org/2000/svg" width="250" height="50" viewBox="0 0 250 50" fill="none">
+      <path d="M73.989 0L79.1478 17.2746H95.8423L82.3362 27.9508L87.4951 45.2254L73.989 34.5491L60.4829 45.2254L65.6417 27.9508L52.1356 17.2746H68.8301L73.989 0Z" fill="#FF8778"/>
+      <path d="M125 0L130.159 17.2746H146.853L133.347 27.9508L138.506 45.2254L125 34.5491L111.494 45.2254L116.653 27.9508L103.147 17.2746H119.841L125 0Z" fill="#FF8778"/>
+      <path d="M176.011 0L181.17 17.2746H197.864L184.358 27.9508L189.517 45.2254L176.011 34.5491L162.505 45.2254L167.664 27.9508L154.158 17.2746H170.852L176.011 0Z" fill="#FF8778"/>
+      <path d="M227.022 0L232.181 17.2746H248.875L235.369 27.9508L240.528 45.2254L227.022 34.5491L213.516 45.2254L218.675 27.9508L205.169 17.2746H221.863L227.022 0Z" fill="#FF8778"/>
+      <path d="M22.9779 0L28.1368 17.2746H44.8313L31.3252 27.9508L36.484 45.2254L22.9779 34.5491L9.47185 45.2254L14.6307 27.9508L1.12462 17.2746H17.8191L22.9779 0Z" fill="#9C122B"/>
+      </svg>
+  </div>
+</div>
+<div class="p-2"></div>
+<iframe class="map d-flex" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d92456.53572705481!2d1.3504421381672491!3d43.600987421638955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1stoulouse%20mairie!5e0!3m2!1sfr!2sfr!4v1690831922678!5m2!1sfr!2sfr" width="500" height="300"  allowfullscreen="auto" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Carte de toulouse"></iframe>
 
-
-
+<div class="p-2 index_adresse"><h3>1 Rue du garage fictif</br>
+  toulouse</h3></div>
 
 <!--Ajout Pied de page-->
 <div class="d-flex footer_bandeau text-center text-uppercase p-3">
   <div class="row col-12">
       <div class="col-12 col-md-5">
+        <!-- Horaire du garage -->
         <h3 class="text-success">Horaires d’ouverture</h3>
         <p class="text-info">lun.: 08h45-12;00, 14h00-18:00</br>
         mar.: 08h45-12;00, 14h00-18:00</br>
@@ -72,6 +265,7 @@
     </a>
     </div>
   </div>
+<!-- Signature bas de page -->
   <div class="col-12 text-success text-center p-1">
     ECF Mr Marsaud Olivier 
   </div>
@@ -82,6 +276,7 @@
 
 
 <!--CDN Bootstrap coté JS -->
+<script src="vendor/twbs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
