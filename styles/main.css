@@ -5423,8 +5423,8 @@ textarea.form-control-lg {
   --bs-modal-width: 500px;
   --bs-modal-padding: 1rem;
   --bs-modal-margin: 0.5rem;
-  --bs-modal-color: ;
-  --bs-modal-bg: var(--bs-body-bg);
+  --bs-modal-color: #9C122B;
+  --bs-modal-bg: #5CB8FF;
   --bs-modal-border-color: var(--bs-border-color-translucent);
   --bs-modal-border-width: var(--bs-border-width);
   --bs-modal-border-radius: var(--bs-border-radius-lg);
@@ -12033,11 +12033,16 @@ h2, .h2 {
   border-radius: 50px;
   border: 3px solid #FF8778;
   text-align: center;
-  font-size: 25px;
+  font-size: 19px;
 }
 
 .index_bouton {
   margin: 0px 50px 20px;
+}
+
+.modal-dialog {
+  border-radius: 10px;
+  border: 3px solid #FF8778;
 }
 
 @media screen and (max-width: 768px) {
@@ -12056,7 +12061,13 @@ h2, .h2 {
   .index_image {
     border-radius: 50px;
     border: 3px solid #FF8778;
-    width: 50%;
+    width: 60%;
     margin: auto;
+  }
+}
+@media screen and (min-width: 960px) {
+  ul {
+    display: grid;
+    grid-template-columns: auto auto auto;
   }
 }/*# sourceMappingURL=main.css.map */
