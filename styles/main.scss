@@ -68,6 +68,8 @@ h2{
 .logo_social{
     padding: 5px;
 }
+
+// Affichage des photo page acceuil taille 50 % pour les grands écrans
 @media screen and (min-width : 768px) {
 .index_image{
     border-radius: 50px;
