@@ -4,6 +4,10 @@
     background-color: $warning;
     height: 150px;
 }
+.navbar-text{
+    color:$info
+}
+
 .logo{
     width: 180px;
 }
@@ -25,13 +29,27 @@ body{
 }
 
 //Style titre H1> majuscule + gradient
-h1{
+h1,h2 {
     text-transform: uppercase;
 background: linear-gradient(to bottom right, #2F2569 0%, #9C122B 50%) bottom right / 50% 50% no-repeat, linear-gradient(to bottom left, #2F2569 0%, #9C122B 50%) bottom left / 50% 50% no-repeat, linear-gradient(to top left, #2F2569 0%, #9C122B 50%) top left / 50% 50% no-repeat, linear-gradient(to top right, #2F2569 0%, #9C122B 50%) top right / 50% 50% no-repeat;
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
+h2{
+    text-align: center;
+    font-size: 50px;
+}
+.index_image{
+    border-radius: 50px;
+    border: 3px solid $success;
+    width: 100%;
+}
+
+
+
+
+//Affichage logo format 768px et +
 @media screen and (max-width : 768px) {
 .hidden{
     visibility: collapse;
@@ -42,3 +60,5 @@ background-clip: text;
 }
 .logo_social{
     padding: 5px;}
+
+    
