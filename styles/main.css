@@ -12120,6 +12120,12 @@ h3, .h3 {
   font-size: 25px;
 }
 
+.ventes_bouton {
+  align-items: center;
+  margin: auto;
+  width: 125px;
+}
+
 @media screen and (min-width: 768px) {
   .index_image {
     border-radius: 50px;

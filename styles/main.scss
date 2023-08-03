@@ -107,6 +107,11 @@ h3{
     text-align: center;
     font-size: 25px;
 }
+.ventes_bouton{
+    align-items: center;
+    margin: auto;
+    width: 125px;
+}
 // Affichage des photo page acceuil taille 50 % pour les grands écrans
 @media screen and (min-width : 768px) {
 .index_image{

@@ -54,3 +54,9 @@ var snapValuesTwo = [
 snapSliderTwo.noUiSlider.on('update', function (values, handle) {
     snapValuesTwo[handle].innerHTML = values[handle] + 'Km';
 });
+document.getElementById('reset_prix').addEventListener('click', function () {
+    snapSlider.noUiSlider.reset();
+});
+document.getElementById('reset_km').addEventListener('click', function () {
+    snapSliderTwo.noUiSlider.reset();
+});
