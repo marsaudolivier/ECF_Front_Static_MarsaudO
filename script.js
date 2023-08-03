@@ -17,6 +17,7 @@ noUiSlider.create(snapSlider, {
         'max': 22500
     }
 });
+
 var snapValues = [
     document.getElementById('slider-snap-value-lower'),
     document.getElementById('slider-snap-value-upper')
@@ -24,4 +25,32 @@ var snapValues = [
 
 snapSlider.noUiSlider.on('update', function (values, handle) {
     snapValues[handle].innerHTML = values[handle] + '€';
+});
+
+var snapSliderTwo = document.getElementById('slider-snapTwo');
+
+noUiSlider.create(snapSliderTwo, {
+    start: [0,225000],
+    snap: true,
+    connect: true,
+    range: {
+        'min': 0,
+        '10%': 25000,
+        '20%': 50000,
+        '30%': 75000,
+        '40%': 100000,
+        '50%': 125000,
+        '60%': 150000,
+        '80%': 175000,
+        '90%': 200000,
+        'max': 225000
+    }
+});
+
+var snapValuesTwo = [
+    document.getElementById('slider-snap-value-lowerTwo'),
+    document.getElementById('slider-snap-value-upperTwo')
+];
+snapSliderTwo.noUiSlider.on('update', function (values, handle) {
+    snapValuesTwo[handle].innerHTML = values[handle] + 'Km';
 });
