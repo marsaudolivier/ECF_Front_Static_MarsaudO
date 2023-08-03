@@ -18,3 +18,27 @@ $modal-md:auto;
 @import "../vendor/twbs/bootstrap/scss/bootstrap";
 
 // Couleur du fond du site Web + police d'écriture principal
+
+
+.ventes_slider_conteneur{
+    display: grid;
+    align-self: center;
+    width: 25%;
+    background-color: $info;
+    border-radius: 50px;
+    border: 3px solid $success;
+}
+.ventes_slider_text{
+   display: flex;
+   flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    color: $primary;
+    font-size: 30px;    
+}
+
+.noUi-connect{
+    background-color: $primary;
+}
+@import "nouislider.min.css"

@@ -4,6 +4,7 @@
  * Copyright 2011-2023 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import "nouislider.min.css";
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -11971,6 +11972,29 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.ventes_slider_conteneur {
+  display: grid;
+  align-self: center;
+  width: 25%;
+  background-color: #5CB8FF;
+  border-radius: 50px;
+  border: 3px solid #FF8778;
+}
+
+.ventes_slider_text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+  color: #2F2569;
+  font-size: 30px;
+}
+
+.noUi-connect {
+  background-color: #2F2569;
+}
+
 .navigation_bandeau {
   background-color: #1E1E1E;
   height: 150px;
@@ -12010,6 +12034,12 @@ h1, .h1, h2, .h2, h3, .h3 {
 h2, .h2 {
   text-align: center;
   font-size: 50px;
+}
+
+h4, .h4 {
+  text-align: center;
+  font-size: 35px;
+  text-transform: uppercase;
 }
 
 .index_image {
