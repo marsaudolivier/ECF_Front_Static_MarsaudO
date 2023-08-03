@@ -54,9 +54,48 @@ var snapValuesTwo = [
 snapSliderTwo.noUiSlider.on('update', function (values, handle) {
     snapValuesTwo[handle].innerHTML = values[handle] + 'Km';
 });
+
+var snapSliderTrois = document.getElementById('slider-snapTrois');
+
+noUiSlider.create(snapSliderTrois, {
+    start: [1950,2024],
+    snap: true,
+    connect: true,
+    step : 1,
+    range: {
+        'min': 1950,
+        '10%': 1970,
+        '20%': 1990,
+        '30%': 2000,
+        '40%': 2005,
+        '50%': 2010,
+        '55%': 2015,
+        '60%': 2016,
+        '65%': 2017,
+        '70%': 2018,
+        '75%': 2019,
+        '80%': 2020,
+        '85%': 2021,
+        '90%': 2022,
+        '95%': 2023,
+        'max': 2024
+    }
+});
+
+var snapValuesTrois = [
+    document.getElementById('slider-snap-value-lowerTrois'),
+    document.getElementById('slider-snap-value-upperTrois')
+];
+snapSliderTrois.noUiSlider.on('update', function (values, handle) {
+    snapValuesTrois[handle].innerHTML = values[handle] ;
+});
+
 document.getElementById('reset_prix').addEventListener('click', function () {
     snapSlider.noUiSlider.reset();
 });
 document.getElementById('reset_km').addEventListener('click', function () {
     snapSliderTwo.noUiSlider.reset();
+});
+document.getElementById('reset_annee').addEventListener('click', function () {
+    snapSliderTrois.noUiSlider.reset();
 });
