@@ -12146,6 +12146,31 @@ h3, .h3 {
   color: #FF8778;
 }
 
+.ventes_card_conteneur {
+  background-color: #5CB8FF;
+  color: #2F2569;
+  border-radius: 50px;
+  border: 3px solid #FF8778;
+  margin: auto;
+  width: 95%;
+}
+
+.ventes_card {
+  margin: auto;
+  width: 95%;
+}
+
+.ventes_card_photo {
+  border-radius: 50px;
+  border: 3px solid #FF8778;
+  width: 100%;
+}
+
+.card-title {
+  text-align: center;
+  font-size: 30px;
+}
+
 @media screen and (min-width: 768px) {
   .index_image {
     border-radius: 50px;

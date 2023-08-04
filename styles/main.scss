@@ -130,6 +130,27 @@ h3{
     background: linear-gradient(to bottom right, #2F2569 0%, #9C122B 50%) bottom right / 50% 50% no-repeat, linear-gradient(to bottom left, #2F2569 0%, #9C122B 50%) bottom left / 50% 50% no-repeat, linear-gradient(to top left, #2F2569 0%, #9C122B 50%) top left / 50% 50% no-repeat, linear-gradient(to top right, #2F2569 0%, #9C122B 50%) top right / 50% 50% no-repeat;
     color: $success;
 }
+.ventes_card_conteneur{
+    background-color: $info;
+    color: $primary;
+    border-radius: 50px;
+    border: 3px solid $success;
+    margin: auto;
+    width: 95%;
+}
+.ventes_card{
+    margin: auto;
+    width: 95%;
+}
+.ventes_card_photo{
+    border-radius: 50px;
+    border: 3px solid $success;
+    width: 100%;
+}
+.card-title{
+    text-align: center;
+    font-size: 30px;
+}
 // Affichage des photo page acceuil taille 50 % pour les grands écrans
 @media screen and (min-width : 768px) {
 .index_image{
