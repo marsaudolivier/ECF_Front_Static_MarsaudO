@@ -23,7 +23,7 @@ $modal-md:auto;
 .ventes_slider_conteneur{
     display: grid;
     align-self: center;
-    width: 90%;
+    width: 95%;
     background-color: $info;
     border-radius: 50px;
     border: 3px solid $success;
@@ -36,7 +36,7 @@ $modal-md:auto;
     width: 100%;
     padding: 10px;
     color: $primary;
-    font-size: 30px;    
+    font-size: 15px;    
 }
 
 .noUi-connect{
@@ -47,4 +47,6 @@ $modal-md:auto;
     border-radius: 100%;
     border: 1px solid $success;
 }
+
 @import "nouislider.min.css"
+

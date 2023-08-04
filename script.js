@@ -1,7 +1,7 @@
 var snapSlider = document.getElementById('slider-snap');
 
 noUiSlider.create(snapSlider, {
-    start: [0,10000],
+    start: [0,22500],
     snap: true,
     connect: true,
     range: {
