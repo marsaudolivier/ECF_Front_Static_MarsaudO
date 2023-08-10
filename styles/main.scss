@@ -151,6 +151,21 @@ h3{
     text-align: center;
     font-size: 30px;
 }
+.FormulaireContact{
+    display: grid;
+    grid-template-columns: 150px auto 150px auto ;
+    padding: 15px;
+    width: 95%;
+}
+.FormulaireContact2{
+    display: grid;
+    grid-template-columns: 150px auto   ;
+    padding: 15px;
+    width: 95%;
+    height: 250px;
+
+}
+
 // Affichage des photo page acceuil taille 50 % pour les grands écrans
 @media screen and (min-width : 768px) {
 .index_image{
@@ -203,4 +218,18 @@ h3{
     background-color: $info;
     border-radius: 5%;
     border: 3px solid $success; 
-}}
+}
+}
+@media screen and (max-width : 768px) {
+    .FormulaireContact{
+        display: flex;
+        flex-direction: column; 
+        padding:  5px ;
+    }
+    .FormulaireContact2{
+        display: flex;
+        flex-direction: column; 
+        padding:  5px ;
+        height: auto;
+    }
+}
